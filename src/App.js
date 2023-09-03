@@ -6,7 +6,7 @@ import { Dashboard } from "./components/Dashboard";
 import { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 import store from "./store/Store";
-import { Row } from "react-bootstrap";
+import { Row } from "react-bootstrap"
 
 function App() {
   const [isAccess, setIsAccess] = useState(false);
